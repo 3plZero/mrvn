@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #EE6055, #FFD97D); /* Coral Red to Golden Yellow */
+    color: #2A2A2A; /* Dark Grey for text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Header and Titles */
+h2, h3 {
+    color: #60D394; /* Mint Green */
+    margin: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 6px #AAF683; /* Light Green Shadow */
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Forms */
+form {
+    background: #FF9B85; /* Peach */
+    border: 2px solid #AAF683; /* Light Green */
+    border-radius: 15px;
+    padding: 25px;
+    width: 350px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #60D394; /* Mint Green */
+    border-radius: 8px;
+    background: #ffffff;
+    color: #EE6055; /* Coral Red */
+}
+
+input:focus {
+    border-color: #FFD97D; /* Golden Yellow */
+    outline: none;
+    box-shadow: 0 0 5px #60D394;
+}
+
+button {
+    background: #AAF683; /* Light Green */
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #FF9B85; /* Peach */
+    transform: scale(1.05);
+}
+
+/* Logout Button */
+.logout-btn {
+    background: #FFD97D; /* Golden Yellow */
+    color: #2A2A2A; /* Dark Grey */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logout-btn:hover {
+    background: #EE6055; /* Coral Red */
+    transform: scale(1.1);
+}
+
+/* Links */
+a {
+    color: #60D394; /* Mint Green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #AAF683; /* Light Green */
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    background: #ffffff; /* White */
+    color: #2A2A2A; /* Dark Grey */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #60D394; /* Mint Green */
+}
+
+table th {
+    background: #EE6055; /* Coral Red */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background: #AAF683; /* Light Green */
+}
+
+table tr:hover {
+    background: #FFD97D; /* Golden Yellow */
+    color: #ffffff;
+    transition: 0.2s ease;
+}
+
+/* Buttons in Table */
+.action-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    background: #60D394; /* Mint Green */
+    color: #2A2A2A; /* Dark Grey */
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.3s ease;
+}
+
+.action-btn:hover {
+    background: #AAF683; /* Light Green */
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background: #FF9B85; /* Peach */
+    color: #2A2A2A; /* Dark Grey */
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.3);
+}
